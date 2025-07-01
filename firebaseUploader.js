@@ -18,3 +18,9 @@ const uploadToSupabase = async (base64Audio, filename) => {
   console.log("✅ Uploaded!");
   return `https://qqxyuixxvkmxowvgdafh.supabase.co/storage/v1/object/public/voices/${filename}.mp3`;
 };
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`✅ Server running on port ${PORT}`);
+});
+
