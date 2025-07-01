@@ -1,8 +1,8 @@
 {
   "name": "firebase-uploader",
   "version": "1.0.0",
-  "main": "firebaseUploader.js",
   "type": "module",
+  "main": "firebaseUploader.js",
   "scripts": {
     "start": "node firebaseUploader.js"
   },
