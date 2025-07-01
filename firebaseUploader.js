@@ -1,5 +1,5 @@
-const fs = require('fs');
-const axios = require('axios');
+import express from 'express';
+import axios from 'axios';
 
 const uploadToSupabase = async (base64Audio, filename) => {
   const buffer = Buffer.from(base64Audio, 'base64');
